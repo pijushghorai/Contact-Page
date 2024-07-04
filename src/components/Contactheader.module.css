@@ -1,0 +1,9 @@
+.container {
+    padding: 15px 80px;
+    width: 70%;
+}
+
+.headtext {
+    font-weight: 800;
+    font-size: 3rem;
+}
