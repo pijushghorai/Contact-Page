@@ -1,3 +1,49 @@
 .formcontainer {
-    padding: 15px 100px;
+    padding: 0 150px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftcontainer {
+    width: 40%;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.form_fildes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin: 25px 0;
+}
+
+.form_fildes label {
+    position: absolute;
+    top: -12px;
+    left: 15px;
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.form_fildes input {
+    height: 40px;
+    padding: 0 8px;
+}
+
+.submit_btn {
+    display: flex;
+    justify-content: end;
+}
+
+.rightcontainer img {
+    width: 90%;
 }

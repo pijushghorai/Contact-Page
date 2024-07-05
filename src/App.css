@@ -7,5 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  width: 100%;
+  height: calc(100vh - 72px);
+}
+
 
 
